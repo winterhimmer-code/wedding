@@ -269,9 +269,10 @@
         .handwriting-svg {
             display: block;
             width: 75%;
+            max-width: 360px;
             /* будет короче текста */
             height: auto;
-            margin: 725px auto 0;
+            margin: 6px auto 0;
         }
 
         /* ====== 2. КАЛЕНДАРЬ ====== */
@@ -1142,10 +1143,13 @@
                 font-size: 55px;
             }
 
+            /*
             .handwriting-svg {
                 width: 75%;
                 margin-top: 570px;
             }
+            */
+        
 
             .deco-heart1-tl {
                 top: 8%;
@@ -1277,12 +1281,16 @@
             }
 
             /* Подчёркивание – уже, центрируем, убираем фиксированный margin */
+
+            /*
             .handwriting-svg {
                 width: 55%;
                 margin: 430px auto 0;
-                /* вместо 570px */
                 height: auto;
             }
+            */
+        
+
 
             /* Декоративные сердечки – корректируем */
             .deco-heart1-tl {
@@ -1385,12 +1393,13 @@
             }
 
             /* Подчёркивание – уже, центрируем, убираем фиксированный отступ */
+            /*
             .handwriting-svg {
                 width: 50%;
                 margin: 8px auto 0;
-                /* вместо 570px */
                 height: auto;
             }
+            */
 
             /* Декоративные сердечки – корректируем под меньший экран */
             .deco-heart1-tl {
@@ -1534,11 +1543,13 @@
             }
 
             /* Подчёркивание – уже, центрируем, убираем фиксированный отступ */
+            /*
             .handwriting-svg {
                 width: 80%;
                 margin: 510px auto 0;
                 height: auto;
             }
+            /*
 
             /* Декоративные сердечки – корректируем */
             .deco-heart1-tl {
@@ -1718,12 +1729,13 @@
             }
 
             /* Подчёркивание – уже, центрируем */
+            /*
             .handwriting-svg {
                 width: 45%;
                 margin: 3px auto 0;
                 height: auto;
             }
-
+            /*
             /* Декоративные сердечки – сильно уменьшаем и смещаем */
             .deco-heart1-tl {
                 top: 2%;
@@ -1985,13 +1997,14 @@
         }
 
         @media (max-width: 360px) and (max-height: 740px) {
+            /*
             .handwriting-svg {
                 width: 80%;
                 margin: 470px auto 0;
-                /* отрицательный отступ, чтобы приподнять */
                 height: auto;
                 display: block;
             }
+            */
         }
     </style>
 </head>
@@ -2037,9 +2050,6 @@
                 <h2 class="we-are-getting-married">Мы женимся!!</h2>
                 <img class="handwriting-svg" src="static/images/underline.svg" alt="">
             </div>
-
-            <!-- Место для SVG-росписи -->
-            <img class="handwriting-svg" src="static/images/underline.svg" alt="">
 
         </section>
 
